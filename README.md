@@ -48,18 +48,24 @@ Code of this API is
         }
         
     }
-    
+
  /********************************/
 
 API to Create the events
+
 URL: moud.in/beta/missioncoordination/events/index
+
 Req type: POST
+
 No of Parameters = 5(event_name,org_name,evnt_date,evnt_time)
 
 
 Api is written in framework of php(Codeigniter)
+
 Code of this API is
+
 /********************************/
+
     public function index(){
         
         $event = $this->input->post('event_name');
@@ -149,4 +155,5 @@ Code of this API is
         }
        
     }
+    
     /*************************************/
