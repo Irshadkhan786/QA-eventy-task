@@ -1,1 +1,1 @@
-Add read me file
+I have created 2 web services. One is for Fetch the Event List and another is for Create Event.
