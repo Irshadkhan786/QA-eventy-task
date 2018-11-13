@@ -1,4 +1,14 @@
-I have created 2 web services. One is for Fetch the Event List and another is for Create Event. No front end validation. All the required validation is written in server side. No pagination is given.
+I have created 2 web services. One is for Fetch the Event List and another is for Create Event.There are some limitation with the application. 
+
+1. No front end validation. 
+
+2. All the required validation is written in server side. 
+
+3. No pagination is given.
+
+4. MySql for database
+
+5. Bootstrap is used for css
 
 API to List the events
 
@@ -13,7 +23,7 @@ Code of this API is
 /***********************/
 
 
-    public function getAllevents($page=0){
+    public function getAllevents(){
         
         ##data is coming from model
         $events = $this->Common_model->getAllEventdata(EVENTS);
@@ -57,7 +67,7 @@ URL: moud.in/beta/missioncoordination/events/index
 
 Req type: POST
 
-No of Parameters = 5(event_name,org_name,evnt_date,evnt_time)
+No of Parameters = 5(event_name,org_name,evnt_date,evnt_time,location)
 
 
 Api is written in framework of php(Codeigniter)
@@ -155,5 +165,7 @@ Code of this API is
         }
        
     }
-    
+
     /*************************************/
+
+    You can just download and run the page. Feel free to ask me if there is any query
