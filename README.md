@@ -1,12 +1,18 @@
 I have created 2 web services. One is for Fetch the Event List and another is for Create Event. No front end validation. All the required validation is written in server side. No pagination is given.
 
 API to List the events
+
 URL: moud.in/beta/missioncoordination/events/getAllevents
+
 Req type: GET
 
 Api is written in framework of php(Codeigniter)
+
 Code of this API is
+
 /***********************/
+
+
     public function getAllevents($page=0){
         
         ##data is coming from model
@@ -42,6 +48,7 @@ Code of this API is
         }
         
     }
+    
  /********************************/
 
 API to Create the events
