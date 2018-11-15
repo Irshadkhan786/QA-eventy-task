@@ -8,9 +8,10 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-<body>
+<body> 
 <?php
 session_start();
+$a = "";
 $url = "moud.in/beta/missioncoordination/events/getAllevents";
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
